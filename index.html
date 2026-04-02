@@ -6,6 +6,19 @@
     <title>OFFICIAL WEBSITE</title>
     <script src="config.js"></script>
     <style>
+        .promo-text {
+    color: #ffd700;
+    font-size: 1.1rem;
+    padding: 0 20px;
+    line-height: 1.6;
+    /* 增加一个轻微的跳动效果 */
+    animation: bounce 2s infinite ease-in-out;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
         /* 1. 全局装修：背景图和字体 */
         body { 
             background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('logo.png'); /* 背景使用Logo模糊处理，显高级 */
@@ -103,7 +116,11 @@
     <h1 id="t-name">LOADING...</h1>
     <p id="t-symbol" style="font-size: 1.5rem; color: #aaa;">...</p>
     
-    <p class="promo-text">Commemorating the 1-Year Anniversary of the Economic Revolution. The Storm is Here.</p>
+    <p class="promo-text">
+    "My financial advisor told me to buy Gold. I told him Gold doesn't have a 1000x potential or a funny picture of a guy in glasses. He cried, I launched. We have no roadmap, no utility, and my cat is currently the Lead Developer. If you're looking for a safe investment, go buy a bond. If you're looking for the moon, grab a bag and hold on to your sanity."
+    <br><br>
+    —— “我的理财师建议我买黄金。我告诉他黄金没有千倍潜力，也没有一张戴眼镜的老头梗图。他气哭了，我开盘了。我们没路线图，没实际用途，我家的猫目前是首席开发人员。如果你想找稳健投资，出门左转买国债；如果你想上月球，拿好袋子，并请抓紧你仅存的理智。”
+</p>
 
     <a href="#" class="buy-btn" id="t-link">BUY ON PUMP.FUN</a><a href="#" class="gb-btn" id="t-gb">GO TO GB</a>
     
