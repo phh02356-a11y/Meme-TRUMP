@@ -1,6 +1,6 @@
 const PROJECT_DATA = {
-    name: "庞大哥",
-    symbol: "谢谢你",
+    name: "Pangdage",
+    symbol: "3Q",
     ca: "TBA", 
     pumpLink: "https://pump.fun" 
 };
