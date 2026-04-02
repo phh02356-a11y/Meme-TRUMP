@@ -1,6 +1,6 @@
 const PROJECT_DATA = {
-    name: "TRUMP LIBERATION",
-    symbol: "$TRUMP",
+    name: "PEPE",
+    symbol: "$PEPE",
     ca: "TBA", 
     pumpLink: "https://pump.fun" 
 };
