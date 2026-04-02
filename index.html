@@ -105,7 +105,7 @@
     
     <p class="promo-text">Commemorating the 1-Year Anniversary of the Economic Revolution. The Storm is Here.</p>
 
-    <a href="#" class="buy-btn" id="t-link">BUY ON PUMP.FUN</a>
+    <a href="#" class="buy-btn" id="t-link">BUY ON PUMP.FUN</a><a href="#" class="gb-btn" id="t-gb">GO TO GB</a>
     
     <div class="ca-box">
         <div style="font-size: 12px; color: #888; margin-bottom: 5px;">CONTRACT ADDRESS:</div>
@@ -119,6 +119,8 @@
         document.getElementById('t-ca').innerText = PROJECT_DATA.ca;
         document.getElementById('t-link').href = PROJECT_DATA.pumpLink;
         document.getElementById('t-link').innerText = "BUY " + PROJECT_DATA.symbol + " NOW";
+        // 在原来的代码下面加上这一行
+document.getElementById('t-gb').href = PROJECT_DATA.gbLink;
     </script>
 </body>
 </html>
