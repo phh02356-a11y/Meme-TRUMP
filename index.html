@@ -1,30 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OFFICIAL WEBSITE</title>
-    <script src="config.js"></script>
-    <style>
-        body { background: #000; color: #fff; font-family: 'Courier New', Courier, monospace; text-align: center; padding: 40px 20px; }
-        .logo { max-width: 200px; border: 2px solid #fff; border-radius: 50%; margin-bottom: 20px; }
-        .buy-btn { display: inline-block; padding: 15px 30px; background: #00ff00; color: #000; text-decoration: none; font-weight: bold; font-size: 20px; border-radius: 5px; margin: 20px 0; }
-        .ca-box { background: #222; padding: 15px; word-break: break-all; border: 1px dashed #555; margin-top: 10px; }
-        h1 { font-size: 3rem; margin-bottom: 10px; }
-    </style>
-</head>
-<body>
-    <img src="logo.png" class="logo" alt="Token Logo">
-    <h1 id="t-name">LOADING...</h1>
-    <p id="t-symbol">...</p>
-    <a href="#" class="buy-btn" id="t-link">BUY ON PUMP.FUN</a>
-    <div class="ca-box" id="t-ca">CA: TBA</div>
-    <script>
-        document.getElementById('t-name').innerText = PROJECT_DATA.name;
-        document.getElementById('t-symbol').innerText = PROJECT_DATA.symbol;
-        document.getElementById('t-ca').innerText = "CA: " + PROJECT_DATA.ca;
-        document.getElementById('t-link').href = PROJECT_DATA.pumpLink;
-        document.getElementById('t-link').innerText = "BUY " + PROJECT_DATA.symbol + " ON PUMP.FUN";
-    </script>
-</body>
-</html>
+<script>
+    const PROJECT_DATA = {
+        name: "TRUMP: LIBERATION DAY", 
+        symbol: "$TRUMP",
+        ca: "TBA (Wait for the Storm...)", 
+        pumpLink: "https://pump.fun" 
+    };
+</script>
+
+<p style="color: #ffd700; font-style: italic;">Commemorating the 1-Year Anniversary of the Economic Revolution.</p>
